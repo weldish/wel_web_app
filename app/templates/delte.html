@@ -1,0 +1,40 @@
+.wrapper{
+    background-color: rgb(73, 53, 163);
+    display: flex;
+    min-height: calc(100vh - 56px);
+}
+.side_bar {
+    flex: 3;
+   
+}
+.main_bar{
+    flex: 9;
+   
+}
+
+
+
+
+<div class="wrapper">
+    
+    <div class=" side_bar ">
+      this is 
+    </div>
+    <div class=" main_bar ">
+
+        {% for user in users %}
+            {{user.username}} <br>
+            
+        {%endfor%}
+    </div>
+</div>
+
+
+
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem odit labore natus dolorum harum, molestias, repellendus necessitatibus ut cupiditate corrupti quos, eligendi fugit perspiciatis suscipit fugiat exercitationem. Nobis, magni praesentium?
+
+
+
+
+<a class="btn btn-danger"  
+href="{{url_for('cancel_users', user_id=user.id)}}">Delete</a>

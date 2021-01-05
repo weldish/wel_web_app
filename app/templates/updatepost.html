@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container ">
+<div class="post_box mt-5 border">
+    <h1 class="text-centre ml-3 mt-3">Edit post</h1>
+    <hr>
+    <form action="/viewPost/{{update_post.id}}/updatePost" method="POST">
+        <div class="form-group">
+        <label for="tt">Title</label>
+        <input type="text" id="tt" class="form-control " name="title" placeholder="Title" value="{{update_post.post_title}}">
+        </div>
+    
+         <div class="form-group">
+        <label for="ta">Content</label>
+        <textarea id="ta" class="form-control" name="content" rows="5"  >{{update_post.posted_content}}</textarea>
+         </div>
+         <button type="submit" class="btn btn-secondary mb-3 ml-3">Update</button>
+         
+  </form>
+  
+</div>
+</div>
+
+{% endblock content %}

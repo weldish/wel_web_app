@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container mt-5"> 
+<div class="border post_box">
+    <form method="POST" action="{{url_for ('post_content') }}" class="col-12">
+
+        {{ post_form.hidden_tag() }}
+        <h2 class="ml-3 mt-3">Create New Post</h2>
+        <hr>
+        <div class="form-group ">
+            {{post_form.title_of_post.label (class="form-control-label post_title")}}
+            {{ post_form.title_of_post(class="form-control input1", placeholder="Enter the tile") }}
+        </div>
+        <div class="form-group ">
+            {{post_form.body.label (class="form-control-label post_title")}}
+            {{ post_form.body (class="form-control input1 ", placeholder="Enter your content here") }}
+        </div>
+    
+        <div class="form-group">
+            {{ post_form.submit_button(class="btn btn-primary btn-lg btn-block login-button")}}
+        </div>
+    
+    
+    </form>
+</div>
+
+<div>
+{% endblock content %}

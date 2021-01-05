@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="body_for_register">
+    <div class="modal-dialog text-center outer-box">
+        <div class="col-12  box">
+            <div class="modal-content inner-box">
+                <div col-12  >
+                    <img src="../static/img/avatat.png" class="rounded-circle login_p" />
+                </div>
+                <form method="POST" action="{{url_for ('signup') }}" class="col-12 form-box">
+                    {{ registerform.hidden_tag() }}
+                    <div class="form-group ">
+                        {{ registerform.username(class="form-control input1" ,placeholder="Enter Your Username") }}
+                        {% for error in registerform.username.errors %}
+                            <span class="tell-users-why">[{{ error }}]</span>
+                         {% endfor %} 
+                    </div>
+                    <div class="form-group ">
+                        {{ registerform.email(class="form-control input1", placeholder="Enter Your Email") }}
+                        {% for error in registerform.email.errors %}
+                             <span class="tell-users-why">[{{ error }}]</span>
+                         {% endfor %} 
+                    </div>
+                    <div class="form-group ">
+                        {{ registerform.password(class="form-control input1", placeholder="Enter Your Password") }}
+                        {% for error in registerform.password.errors %}
+                            <span class="tell-users-why">[{{ error }}]</span>
+                        {% endfor %} 
+                    </div>
+                    <div class="form-group ">
+                        {{ registerform.confirm_password(class="form-control input2",
+                        placeholder="Confirm Your Password") }}
+                        {% for error in registerform.confirm_password.errors %}
+                                <span class="tell-users-why">[{{ error }}]</span>
+                        {% endfor %} 
+                    </div>
+                    <div class="form-group sine_up">
+                        {{ registerform.submit_button(class="btn btn-outline-info SignUp-button") }}
+                    </div>
+                    <div>
+                        <p class="tell-users-why">Do you want to <a href="{{ url_for('signin') }}">log in?</a>
+                    </div>
+
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

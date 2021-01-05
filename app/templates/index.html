@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+{% block content %}
+
+<article class="container mt-3 ">
+
+    <div class="row">
+
+   
+    
+    <div class="ml-3 ">
+        <a href="{{ url_for('index', page=all_posts.prev_num) }}" class="btn btn-outline-secondary mb-3 mr-2 mt-3"><<</a>
+        {% for page_number in all_posts.iter_pages(left_edge=1, right_edge=1, left_current=1, right_current=2) %}
+        
+        {% if page_number %}
+
+            {% if all_posts.page == page_number %}
+            
+            <a href="{{ url_for('index', page=page_number) }} "
+               class="btn btn-warning mb-3 mt-3 mr-2">
+                {{ page_number }}
+            </a>
+            {% else %}
+            <a href="{{ url_for('index', page=page_number) }}"
+               class="btn btn-outline-secondary mb-3 mt-3 mr-2">
+                {{ page_number }}
+            </a>
+            {% endif %}
+        {% else %}
+            .......
+        {% endif %}
+
+    {% endfor %}
+    <a href="{{ url_for('index', page=all_posts.next_num) }}" class="btn btn-outline-secondary mb-3 mr-2 mt-3">>></a>
+    </div>
+        
+        {% for post in all_posts.items %}
+        <div class="col-md-12 ">
+
+            <div class="media post_box mb-3 px-1 py-1">
+                <img class="align-self-start mr-2 side_profile rounded-circle" src="../static/img/{{post.author.profile_img}}" alt="Generic placeholder image">
+                <div class="media-body">
+                 <div>
+                     <a class="mt-0 author_name" href="#">By {{ post.author.username}}. </a>
+                    <span class="date_post">  Posted on: {{post.date.strftime("%A, %d %b %y")}}</span>
+                    
+                 </div>
+                 <hr class="mt-0 mb-0">
+                
+                 <div class="border_pox ">
+                    <h2 class=" h_post_title mt-2" ><a class="post_title" href="{{url_for('viewPost', id=post.id)}}" >{{post.post_title}}</a></h2>
+                    <p class="lead post_con">{{post.posted_content}}</p>
+                 </div>
+                 {% if post.author == current_user %}
+                 
+                 <a class="btn btn-outline-info btn-sm mr-3 px-3 py-1 mb-2" href="{{ url_for('updatePost', post_id=post.id) }}"><i class="fa fa-pencil-square-o mr-1" aria-hidden="true"></i>
+                    Edit</a>
+                 <a class="btn btn-danger btn-sm px-2 mb-2" href="{{ url_for('confirm_deltion', post_id=post.id) }}" ><i class="fa fa-trash-o mr-1" aria-hidden="true"></i>Delete</a>
+                 
+                {% endif %}
+                 <span class="mr-2 py-2 ml-4"><i class="fa fa-thumbs-up"></i></i></span>
+                <span class="py-2 ml-2"><i class="fa fa-comments"></i></span>
+
+              </div>
+              
+        </div>
+        </div>
+        
+
+        {%endfor%}
+        <div class="ml-3">
+        <a href="{{ url_for('index', page=all_posts.prev_num) }}" class="btn btn-outline-secondary mb-5 mr-2 mt-3"><<</a>
+        {% for page_number in all_posts.iter_pages(left_edge=1, right_edge=1, left_current=1, right_current=2) %}
+        
+        {% if page_number %}
+
+            {% if all_posts.page == page_number %}
+            
+            <a href="{{ url_for('index', page=page_number) }} "
+               class="btn btn-warning mb-5 mt-3 mr-2">
+                {{ page_number }}
+            </a>
+            {% else %}
+            <a href="{{ url_for('index', page=page_number) }}"
+               class="btn btn-outline-secondary mb-5 mt-3 mr-2">
+                {{ page_number }}
+            </a>
+            {% endif %}
+        {% else %}
+            .......
+        {% endif %}
+
+    {% endfor %}
+    <a href="{{ url_for('index', page=all_posts.next_num) }}" class="btn btn-outline-secondary mb-5 mr-2 mt-3">>></a>
+    </div>
+
+    
+</div>
+
+</article>
+
+
+{% endblock content %}

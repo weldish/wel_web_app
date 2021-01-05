@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <div class="col-12 mt-5">
+
+    <form action="/viewPost/{{post_id}}/deletePost" method="POST">
+        <button type="submit" class="btn btn-secondary btn-lg btn-block">Yes, Delete my post.</button>
+    </form>
+    </div>
+</div>
+
+{% endblock content %}

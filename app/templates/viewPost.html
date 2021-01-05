@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+<article class="container mt-3">
+    
+    
+    <div class="col-md-9  ">
+
+        <div class="media post_box mb-3 px-4">
+            <img class="align-self-start mr-3 side_profile rounded-circle" src="../static/img/{{viewed_post.author.profile_img}}" alt="Generic placeholder image">
+            <div class="media-body">
+             <div>
+                 <a class="mt-0 author_name" href="#">By {{ viewed_post.author.username}}. </a>
+                <span class="date_post">  Posted on: {{viewed_post.date.strftime("%A, %d %b %y")}}</span>
+                
+             </div>
+             <hr class="mt-0 mb-0">
+             <h2 class="mt-0" style="color: rgb(102, 59, 44)">{{viewed_post.post_title}}</h2>
+             <div class="border_pox">
+                <p class="lead ">{{viewed_post.posted_content}}</p>
+             </div>
+
+            {% if viewed_post.author == current_user %}
+              <div>
+                 <a class="btn btn-primary px-3 py-1 mb-1 mr-3 " href="{{ url_for('updatePost', post_id=viewed_post.id) }}"><i class="fa fa-pencil-square-o mr-1" aria-hidden="true"></i>
+                    Edit</a>
+                 
+
+                 <a class="btn btn-danger px-2 py-1 mb-1 " href="{{ url_for('confirm_deltion', post_id=viewed_post.id) }}" ><i class="fa fa-trash-o mr-1" aria-hidden="true"></i>Delete</a>
+                </div>
+            {% endif %}
+             
+             <span class="mr-2 py-2"><i class="fa fa-thumbs-up"></i></i></span>
+            <span class="py-2"><i class="fa fa-comments"></i></span>
+          </div>
+          
+    </div>
+    </div>
+        
+
+</article>
+
+{% endblock content %}
