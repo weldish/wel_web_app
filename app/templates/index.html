@@ -8,7 +8,7 @@
    
     
     <div class="ml-3 ">
-        <a href="{{ url_for('index', page=all_posts.prev_num) }}" class="btn btn-outline-secondary mb-3 mr-2 mt-3"><<</a>
+        <a href="{{ url_for('index', page=all_posts.prev_num) }}" class="btn btn-outline-secondary mb-3 mr-2 mt-3">Prev</a>
         {% for page_number in all_posts.iter_pages(left_edge=1, right_edge=1, left_current=1, right_current=2) %}
         
         {% if page_number %}
@@ -30,7 +30,7 @@
         {% endif %}
 
     {% endfor %}
-    <a href="{{ url_for('index', page=all_posts.next_num) }}" class="btn btn-outline-secondary mb-3 mr-2 mt-3">>></a>
+    <a href="{{ url_for('index', page=all_posts.next_num) }}" class="btn btn-outline-secondary mb-3 mr-2 mt-3">Next</a>
     </div>
         
         {% for post in all_posts.items %}
@@ -50,15 +50,23 @@
                     <h2 class=" h_post_title mt-2" ><a class="post_title" href="{{url_for('viewPost', id=post.id)}}" >{{post.post_title}}</a></h2>
                     <p class="lead post_con">{{post.posted_content}}</p>
                  </div>
-                 {% if post.author == current_user %}
                  
-                 <a class="btn btn-outline-info btn-sm mr-3 px-3 py-1 mb-2" href="{{ url_for('updatePost', post_id=post.id) }}"><i class="fa fa-pencil-square-o mr-1" aria-hidden="true"></i>
-                    Edit</a>
-                 <a class="btn btn-danger btn-sm px-2 mb-2" href="{{ url_for('confirm_deltion', post_id=post.id) }}" ><i class="fa fa-trash-o mr-1" aria-hidden="true"></i>Delete</a>
+                 <div class="like_and_dislike_box">
+                    {% if post.author == current_user %}
+                   
+                    <a class="btn btn-outline-info btn-sm mr-4 px-3 py-1 mb-2 " href="{{ url_for('updatePost', post_id=post.id) }}"><i class="fa fa-pencil-square-o mr-1" aria-hidden="true"></i>
+                        Edit</a>
+                     <a class="btn btn-danger btn-sm px-2 mb-2" href="{{ url_for('confirm_deltion', post_id=post.id) }}" ><i class="fa fa-trash-o mr-1" aria-hidden="true"></i>Delete</a>
+                    {% else %}
+                    <button onclick="clickCounter('{{post.id}}')"  class="like_button btn btn-outline-info btn-sm mb-2">Upvote</button>
+                    <input id ="{{post.id}}" class="thumbs_up_input mb-2" value="0">
+                    <button onclick="clickCounters('{{post.id + 700}}')" class="dislike_button btn btn-outline-info btn-sm mb-2 mr-0">Downvote</button>
+                    <input id = "{{post.id + 700 }}"class="thumbs_down_input mb-2" value="0">
                  
                 {% endif %}
-                 <span class="mr-2 py-2 ml-4"><i class="fa fa-thumbs-up"></i></i></span>
-                <span class="py-2 ml-2"><i class="fa fa-comments"></i></span>
+                 </div>
+                 
+               
 
               </div>
               
@@ -68,7 +76,7 @@
 
         {%endfor%}
         <div class="ml-3">
-        <a href="{{ url_for('index', page=all_posts.prev_num) }}" class="btn btn-outline-secondary mb-5 mr-2 mt-3"><<</a>
+        <a href="{{ url_for('index', page=all_posts.prev_num) }}" class="btn btn-outline-secondary mb-5 mr-2 mt-3">Prev</a>
         {% for page_number in all_posts.iter_pages(left_edge=1, right_edge=1, left_current=1, right_current=2) %}
         
         {% if page_number %}
@@ -90,7 +98,7 @@
         {% endif %}
 
     {% endfor %}
-    <a href="{{ url_for('index', page=all_posts.next_num) }}" class="btn btn-outline-secondary mb-5 mr-2 mt-3">>></a>
+    <a href="{{ url_for('index', page=all_posts.next_num) }}" class="btn btn-outline-secondary mb-5 mr-2 mt-3">Next</a>
     </div>
 
     

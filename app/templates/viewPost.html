@@ -5,8 +5,8 @@
     
     <div class="col-md-9  ">
 
-        <div class="media post_box mb-3 px-4">
-            <img class="align-self-start mr-3 side_profile rounded-circle" src="../static/img/{{viewed_post.author.profile_img}}" alt="Generic placeholder image">
+        <div class="media post_box mb-3 px-1 py-1">
+            <img class="align-self-start mr-2 side_profile rounded-circle" src="../static/img/{{viewed_post.author.profile_img}}" alt="Generic placeholder image">
             <div class="media-body">
              <div>
                  <a class="mt-0 author_name" href="#">By {{ viewed_post.author.username}}. </a>
@@ -14,18 +14,18 @@
                 
              </div>
              <hr class="mt-0 mb-0">
-             <h2 class="mt-0" style="color: rgb(102, 59, 44)">{{viewed_post.post_title}}</h2>
+             <h2 class="mt-2 h_post_title" style="color: rgb(102, 59, 44)">{{viewed_post.post_title}}</h2>
              <div class="border_pox">
-                <p class="lead ">{{viewed_post.posted_content}}</p>
+                <p class="lead post_con">{{viewed_post.posted_content}}</p>
              </div>
 
             {% if viewed_post.author == current_user %}
               <div>
-                 <a class="btn btn-primary px-3 py-1 mb-1 mr-3 " href="{{ url_for('updatePost', post_id=viewed_post.id) }}"><i class="fa fa-pencil-square-o mr-1" aria-hidden="true"></i>
+                 <a class="btn btn-primary btn-sm mr-3 px-3 py-1 mb-2" href="{{ url_for('updatePost', post_id=viewed_post.id) }}"><i class="fa fa-pencil-square-o mr-1" aria-hidden="true"></i>
                     Edit</a>
                  
 
-                 <a class="btn btn-danger px-2 py-1 mb-1 " href="{{ url_for('confirm_deltion', post_id=viewed_post.id) }}" ><i class="fa fa-trash-o mr-1" aria-hidden="true"></i>Delete</a>
+                 <a class="btn btn-danger btn-sm px-2 mb-2" href="{{ url_for('confirm_deltion', post_id=viewed_post.id) }}" ><i class="fa fa-trash-o mr-1" aria-hidden="true"></i>Delete</a>
                 </div>
             {% endif %}
              
@@ -40,3 +40,7 @@
 </article>
 
 {% endblock content %}
+
+
+
+

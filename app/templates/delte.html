@@ -45,3 +45,75 @@ href="{{url_for('cancel_users', user_id=user.id)}}">Delete</a>
 admin=Admin(app)
 admin.add_view(ModelView(models.User, db.session))
 admin.add_view(ModelView(models.Post, db.session))
+
+
+
+javascript below
+
+
+
+let likes=[];
+
+const like_button=document.querySelectorAll('.like_button');
+console.log(like_button);
+const dislike_button=document.querySelectorAll('.dislike_button');
+const thumbs_up_input=document.querySelectorAll('.thumbs_up_input');
+const thumbs_down_input=document.querySelectorAll('.thumbs_down_input');
+
+
+for(let k=0; k<like_button.length; k++){
+
+  
+    like_button[k].addEventListener('click', function(){
+    console.log("likebutton clicked");
+    thumbs_up_input[k].value= parseInt(thumbs_up_input[k].value) + 1;
+    likes.push(thumbs_up_input[k].value);
+    localStorage.setItem('mylikes', JSON.stringify(likes));
+    
+});
+
+
+}
+for(let k=0; k<dislike_button.length; k++){
+
+  
+    dislike_button[k].addEventListener('click', function(){
+    console.log("dislikebutton clicked");
+});
+
+}
+
+   
+
+
+
+account below.
+
+<div class="col-5 text-center mt-3">
+    <h2 class="mr-20">About Me</h2>
+</div>
+<div class="card col-5 " >
+       
+        <div class="backgd">
+            <img  src="../static/img/pexels-pixabay-459301.jpg" alt=" background image">
+        </div>
+        
+        <div class="profile">
+            <img class ="img-circle login_p" src="../static/img/{{current_user.profile_img}}">
+        </div>
+
+        <div class="card-body text-center">
+            <h2 class="card-title">{{current_user.username}}</h2>
+            <p class="card-text"> {{current_user.email}}</p>
+            <p> Author and Blogger</p>
+            <p> 
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi 
+                repudiandae, alias ratione, officia minus sapiente obcaecati e
+                xpedita veniam beatae dolores, eos minima ipsum molestiae ab perf</p>
+        </div>
+
+        <hr>
+        
+   
+    
+  </div>

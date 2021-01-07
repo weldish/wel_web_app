@@ -1,8 +1,8 @@
 .body_for_register {
-    background: url(../static/img/pexels-pixabay-531880.jpg) no-repeat ;
+    background: url(../static/img/pexels-pixabay-531880.jpg) no-repeat center center fixed;
     background-size: cover;
-    width: 100vw;
-    height: 100vh;
+    
+   
     border: 1px solid rgb(64, 5, 122);
 }
 .inner-box{
@@ -184,7 +184,7 @@ body{
     
 }
 .post_box:hover{
-    transform: scale(1.1);
+    transform: scale(1.01);
 }
 .post_con{
     padding-right: 0px;
@@ -279,10 +279,54 @@ body{
     z-index: 10;
 }
 
-
-  
+.like_and_dislike_box{
+   
+}
+.thumbs_up_input{
+    font-size: 18px;
+    border: none;
+    border-radius: 50%;
+    background: none;
+    color: #0c7014;
+    pointer-events: none;
+    width: 38px;
+}
+.thumbs_down_input{
+    font-size: 18px;
+    border: none;
+    background: none;
+    color: #be5916;
+    pointer-events: none;
+    width: 38px;
+}
+.like_and_dislike_box{
+    transform: translateX(-35px);
+  }
+.like_button, .dislike_button{
+    cursor: pointer;
+}
+.like_button:active, .dislike_button:active{
+    color: #004eff;
+    transform: scale(1.1);
+}
 @media screen and (max-width: 480px) {
     .h_post_title {
       transform: translateX(-35px);
     }
+    
   }
+
+@media screen and (min-width: 480px) {
+    .body_for_register{
+        width: 100vw;
+        height: 100vh;
+    }
+}
+@media screen and (max-width: 325px) {
+    .like_button, .dislike_button{
+        padding-left: 2px;
+        padding-right: 2px;
+        font-size: 12px;
+        
+    }
+}
