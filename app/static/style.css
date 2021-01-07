@@ -300,9 +300,12 @@ body{
     width: 38px;
 }
 .like_and_dislike_box{
-    -ms-transform: translateX(-35px);
+     transform: translateX(-35px);
     -webkit-transform: translateX(-35px);
-    transform: translateX(-35px);
+    -ms-transform: translateX(-35px);
+    -moz-transform: translateX(-35px);
+    -o-transform: translateX(-35px);
+    
   }
 .like_button, .dislike_button{
     cursor: pointer;
