@@ -38,3 +38,10 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem odit labore nat
 
 <a class="btn btn-danger"  
 href="{{url_for('cancel_users', user_id=user.id)}}">Delete</a>
+
+
+
+
+admin=Admin(app)
+admin.add_view(ModelView(models.User, db.session))
+admin.add_view(ModelView(models.Post, db.session))

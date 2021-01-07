@@ -68,12 +68,13 @@ def signin():
 
     return render_template('signin.html', title='Login_page', loginform=loginform)
 
-@app.route("/admin", methods=['GET', 'POST'])
+@app.route("/admin_user", methods=['GET', 'POST'])
 @login_required
-def admin():
-    users=User.query.order_by(User.last_time_seen.desc()).all()
-    return render_template('admin.html', title='admin_page', users=users)
-
+def admin_user():
+    if current_user.username=="weldat":
+        users=User.query.order_by(User.last_time_seen.desc()).all()
+        return render_template('admin.html', title='admin_page', users=users)
+    
 
 @app.route("/cancel_users<int:user_id>", methods=['GET', 'POST'])
 @login_required

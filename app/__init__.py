@@ -19,7 +19,4 @@ migrate = Migrate(app, db)
 
 from app import views, models
 
-admin=Admin(app)
-admin.add_view(ModelView(models.User, db.session))
-admin.add_view(ModelView(models.Post, db.session))
 

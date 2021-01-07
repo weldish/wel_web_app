@@ -35,9 +35,12 @@
                 <li class="nav-item ">
                     <a class="nav-link " href="{{ url_for('post_content') }}">Create New Post</a>
                 </li>
+                
+                {% if current_user.username=="weldat"%}
                 <li class="nav-item ">
-                    <a class="nav-link " href="{{ url_for('admin') }}">Admin</a>
+                    <a class="nav-link " href="{{ url_for('admin_user') }}">admin</a>
                 </li>
+                {% endif %}
                 {% endif %}
             </ul>
             <ul class="navbar-nav right-links">
