@@ -2,8 +2,10 @@
 
 'use strict';
 
-//var someVarName = localStorage.getItem("someVarKey");
-
+overlay.addEventListener('touchstart', function(e){
+    e.preventDefault();
+  });
+  
 const thumbs_up_input=document.querySelectorAll('.thumbs_up_input');
 const thumbs_down_input=document.querySelectorAll('.thumbs_down_input');
 

@@ -185,6 +185,7 @@ body{
 }
 .post_box:hover{
     transform: scale(1.01);
+    -webkit-transform: scale(1.01);
 }
 .post_con{
     padding-right: 0px;
@@ -312,6 +313,8 @@ body{
     color: #004eff;
     transform: scale(1.1);
 }
+
+
 @media screen and (max-width: 480px) {
     .h_post_title {
       transform: translateX(-35px);
