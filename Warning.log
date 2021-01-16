@@ -1,0 +1,131 @@
+[2021-01-16 11:55:51,276] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:51] "[35m[1mGET /cancel_users7 HTTP/1.1[0m" 500 -
+[2021-01-16 11:55:51,295] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:51] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+[2021-01-16 11:55:51,295] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:51] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+[2021-01-16 11:55:51,296] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:51] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+[2021-01-16 11:55:51,349] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:51] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2021-01-16 11:55:51,358] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:51] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2021-01-16 11:55:52,067] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:52] "[35m[1mGET /cancel_users7 HTTP/1.1[0m" 500 -
+[2021-01-16 11:55:52,085] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:52] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+[2021-01-16 11:55:52,086] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:52] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+[2021-01-16 11:55:52,086] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:52] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+[2021-01-16 11:55:52,135] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:52] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2021-01-16 11:55:52,144] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:52] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2021-01-16 11:55:52,737] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:52] "[35m[1mGET /cancel_users7 HTTP/1.1[0m" 500 -
+[2021-01-16 11:55:52,753] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:52] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+[2021-01-16 11:55:52,756] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:52] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+[2021-01-16 11:55:52,757] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:52] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+[2021-01-16 11:55:52,808] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:52] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2021-01-16 11:55:52,818] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:52] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2021-01-16 11:55:53,210] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:53] "[35m[1mGET /cancel_users7 HTTP/1.1[0m" 500 -
+[2021-01-16 11:55:53,233] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:53] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+[2021-01-16 11:55:53,234] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:53] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+[2021-01-16 11:55:53,235] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:53] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+[2021-01-16 11:55:53,305] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:53] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2021-01-16 11:55:53,317] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:53] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2021-01-16 11:55:53,624] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:53] "[35m[1mGET /cancel_users7 HTTP/1.1[0m" 500 -
+[2021-01-16 11:55:53,646] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:53] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+[2021-01-16 11:55:53,647] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:53] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+[2021-01-16 11:55:53,648] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:53] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+[2021-01-16 11:55:53,714] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:53] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2021-01-16 11:55:53,724] p INFO - 127.0.0.1 - - [16/Jan/2021 11:55:53] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2021-01-16 11:59:22,276] p INFO -  * Detected change in '/home/weldino/Desktop/web_app2/Section_2/app/views.py', reloading
+[2021-01-16 11:59:26,236] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:26] "[35m[1mGET /cancel_users7 HTTP/1.1[0m" 500 -
+[2021-01-16 11:59:26,254] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:26] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+[2021-01-16 11:59:26,256] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:26] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+[2021-01-16 11:59:26,256] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:26] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+[2021-01-16 11:59:26,323] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:26] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2021-01-16 11:59:26,334] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:26] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2021-01-16 11:59:27,143] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:27] "[35m[1mGET /cancel_users7 HTTP/1.1[0m" 500 -
+[2021-01-16 11:59:27,157] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:27] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+[2021-01-16 11:59:27,158] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:27] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+[2021-01-16 11:59:27,159] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:27] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+[2021-01-16 11:59:27,212] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:27] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2021-01-16 11:59:27,222] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:27] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2021-01-16 11:59:27,881] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:27] "[35m[1mGET /cancel_users7 HTTP/1.1[0m" 500 -
+[2021-01-16 11:59:27,905] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:27] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+[2021-01-16 11:59:27,905] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:27] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+[2021-01-16 11:59:27,906] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:27] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+[2021-01-16 11:59:27,972] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:27] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2021-01-16 11:59:27,984] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:27] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2021-01-16 11:59:28,206] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:28] "[35m[1mGET /cancel_users7 HTTP/1.1[0m" 500 -
+[2021-01-16 11:59:28,229] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:28] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+[2021-01-16 11:59:28,229] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:28] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+[2021-01-16 11:59:28,230] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:28] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+[2021-01-16 11:59:28,297] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:28] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2021-01-16 11:59:28,309] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:28] "[37mGET /cancel_users7?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2021-01-16 11:59:37,280] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:37] "[37mGET /admin_user HTTP/1.1[0m" 200 -
+[2021-01-16 11:59:40,281] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:40] "[32mGET /cancel_users16 HTTP/1.1[0m" 302 -
+[2021-01-16 11:59:40,304] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:40] "[37mGET /index HTTP/1.1[0m" 200 -
+[2021-01-16 11:59:40,330] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:40] "[36mGET /static/img/eritreangirl.jpeg HTTP/1.1[0m" 304 -
+[2021-01-16 11:59:46,869] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:46] "[37mGET /admin_user HTTP/1.1[0m" 200 -
+[2021-01-16 11:59:52,341] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:52] "[32mGET /cancel_users15 HTTP/1.1[0m" 302 -
+[2021-01-16 11:59:52,358] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:52] "[37mGET /index HTTP/1.1[0m" 200 -
+[2021-01-16 11:59:52,374] p INFO - 127.0.0.1 - - [16/Jan/2021 11:59:52] "[36mGET /static/img/yemanebarya.jpeg HTTP/1.1[0m" 304 -
+[2021-01-16 12:02:54,952] p INFO -  * Detected change in '/home/weldino/Desktop/web_app2/Section_2/app/views.py', reloading
+[2021-01-16 12:03:09,689] p INFO - 127.0.0.1 - - [16/Jan/2021 12:03:09] "[37mGET /index HTTP/1.1[0m" 200 -
+[2021-01-16 12:03:10,638] p INFO - 127.0.0.1 - - [16/Jan/2021 12:03:10] "[37mGET /index HTTP/1.1[0m" 200 -
+[2021-01-16 12:03:10,945] p INFO - 127.0.0.1 - - [16/Jan/2021 12:03:10] "[37mGET /index HTTP/1.1[0m" 200 -
+[2021-01-16 12:03:12,334] p INFO - 127.0.0.1 - - [16/Jan/2021 12:03:12] "[32mGET /signout HTTP/1.1[0m" 302 -
+[2021-01-16 12:03:12,356] p INFO - 127.0.0.1 - - [16/Jan/2021 12:03:12] "[37mGET /signin HTTP/1.1[0m" 200 -
+[2021-01-16 12:03:20,002] p INFO - 127.0.0.1 - - [16/Jan/2021 12:03:20] "[35m[1mPOST /signin HTTP/1.1[0m" 500 -
+[2021-01-16 12:03:20,015] p INFO - 127.0.0.1 - - [16/Jan/2021 12:03:20] "[37mGET /signin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+[2021-01-16 12:03:20,017] p INFO - 127.0.0.1 - - [16/Jan/2021 12:03:20] "[37mGET /signin?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+[2021-01-16 12:03:20,017] p INFO - 127.0.0.1 - - [16/Jan/2021 12:03:20] "[37mGET /signin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+[2021-01-16 12:03:20,063] p INFO - 127.0.0.1 - - [16/Jan/2021 12:03:20] "[37mGET /signin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2021-01-16 12:03:20,070] p INFO - 127.0.0.1 - - [16/Jan/2021 12:03:20] "[37mGET /signin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+[2021-01-16 12:04:19,634] p INFO -  * Detected change in '/home/weldino/Desktop/web_app2/Section_2/app/views.py', reloading
+[2021-01-16 12:04:26,141] p INFO -  * Detected change in '/home/weldino/Desktop/web_app2/Section_2/app/views.py', reloading
+[2021-01-16 12:04:42,402] p INFO - 127.0.0.1 - - [16/Jan/2021 12:04:42] "[32mGET / HTTP/1.1[0m" 302 -
+[2021-01-16 12:04:42,424] p INFO - 127.0.0.1 - - [16/Jan/2021 12:04:42] "[37mGET /signin?next=%2F HTTP/1.1[0m" 200 -
+[2021-01-16 12:04:49,487] p INFO - failed to log in
+[2021-01-16 12:04:49,488] p INFO - 127.0.0.1 - - [16/Jan/2021 12:04:49] "[32mPOST /signin HTTP/1.1[0m" 302 -
+[2021-01-16 12:04:49,492] p INFO - 127.0.0.1 - - [16/Jan/2021 12:04:49] "[37mGET /signin HTTP/1.1[0m" 200 -
+[2021-01-16 12:05:46,722] p INFO -  * Detected change in '/home/weldino/Desktop/web_app2/Section_2/app/__init__.py', reloading
+[2021-01-16 12:05:49,262] p INFO - 127.0.0.1 - - [16/Jan/2021 12:05:49] "[37mGET /signin HTTP/1.1[0m" 200 -
+[2021-01-16 12:05:50,256] p INFO - 127.0.0.1 - - [16/Jan/2021 12:05:50] "[37mGET /signin HTTP/1.1[0m" 200 -
+[2021-01-16 12:05:57,640] p INFO - failed to log in
+[2021-01-16 12:05:57,642] p INFO - 127.0.0.1 - - [16/Jan/2021 12:05:57] "[32mPOST /signin HTTP/1.1[0m" 302 -
+[2021-01-16 12:05:57,645] p INFO - 127.0.0.1 - - [16/Jan/2021 12:05:57] "[37mGET /signin HTTP/1.1[0m" 200 -
+[2021-01-16 12:07:19,494] p INFO -  * Detected change in '/home/weldino/Desktop/web_app2/Section_2/app/__init__.py', reloading
+[2021-01-16 12:08:18,851] p INFO -  * Detected change in '/home/weldino/Desktop/web_app2/Section_2/app/__init__.py', reloading
+[2021-01-16 12:08:20,305] p INFO -  * Detected change in '/home/weldino/Desktop/web_app2/Section_2/app/__init__.py', reloading
+failed to log in
+[2021-01-16 12:08:27,529] p INFO - failed to log in
+[2021-01-16 12:08:27,531] p INFO - 127.0.0.1 - - [16/Jan/2021 12:08:27] "[32mPOST /signin HTTP/1.1[0m" 302 -
+[2021-01-16 12:08:27,548] p INFO - 127.0.0.1 - - [16/Jan/2021 12:08:27] "[37mGET /signin HTTP/1.1[0m" 200 -
+[2021-01-16 12:09:04,173] p INFO - 127.0.0.1 - - [16/Jan/2021 12:09:04] "[37mPOST /signin HTTP/1.1[0m" 200 -
+failed to log in
+[2021-01-16 12:09:13,672] p INFO - failed to log in
+[2021-01-16 12:09:13,674] p INFO - 127.0.0.1 - - [16/Jan/2021 12:09:13] "[32mPOST /signin HTTP/1.1[0m" 302 -
+[2021-01-16 12:09:13,679] p INFO - 127.0.0.1 - - [16/Jan/2021 12:09:13] "[37mGET /signin HTTP/1.1[0m" 200 -
+[2021-01-16 12:10:38,880] p INFO -  * Detected change in '/home/weldino/Desktop/web_app2/Section_2/app/__init__.py', reloading
+[2021-01-16 12:10:42,325] p INFO - 127.0.0.1 - - [16/Jan/2021 12:10:42] "[37mGET /signin HTTP/1.1[0m" 200 -
+[2021-01-16 12:10:47,821] p INFO - failed to log in
+[2021-01-16 12:10:47,823] p INFO - 127.0.0.1 - - [16/Jan/2021 12:10:47] "[32mPOST /signin HTTP/1.1[0m" 302 -
+[2021-01-16 12:10:47,826] p INFO - 127.0.0.1 - - [16/Jan/2021 12:10:47] "[37mGET /signin HTTP/1.1[0m" 200 -
+[2021-01-16 12:13:32,695] p INFO -  * Detected change in '/home/weldino/Desktop/web_app2/Section_2/app/views.py', reloading
+[2021-01-16 12:13:36,068] p INFO - 127.0.0.1 - - [16/Jan/2021 12:13:36] "[37mGET /signin HTTP/1.1[0m" 200 -
+[2021-01-16 12:13:42,443] p INFO - failed to log in
+[2021-01-16 12:13:42,445] p INFO - 127.0.0.1 - - [16/Jan/2021 12:13:42] "[32mPOST /signin HTTP/1.1[0m" 302 -
+[2021-01-16 12:13:42,448] p INFO - 127.0.0.1 - - [16/Jan/2021 12:13:42] "[37mGET /signin HTTP/1.1[0m" 200 -
+[2021-01-16 12:14:35,562] p INFO - 127.0.0.1 - - [16/Jan/2021 12:14:35] "[32mPOST /signin HTTP/1.1[0m" 302 -
+[2021-01-16 12:14:35,590] p INFO - 127.0.0.1 - - [16/Jan/2021 12:14:35] "[37mGET /index HTTP/1.1[0m" 200 -
+[2021-01-16 12:14:41,376] p INFO - 127.0.0.1 - - [16/Jan/2021 12:14:41] "[37mGET /admin_user HTTP/1.1[0m" 200 -
+[2021-01-16 12:15:35,524] p INFO - 127.0.0.1 - - [16/Jan/2021 12:15:35] "[32mGET /signout HTTP/1.1[0m" 302 -
+[2021-01-16 12:15:35,538] p INFO - 127.0.0.1 - - [16/Jan/2021 12:15:35] "[37mGET /signin HTTP/1.1[0m" 200 -
+[2021-01-16 12:15:49,115] p INFO - 127.0.0.1 - - [16/Jan/2021 12:15:49] "[32mPOST /signin HTTP/1.1[0m" 302 -
+[2021-01-16 12:15:49,127] p INFO - 127.0.0.1 - - [16/Jan/2021 12:15:49] "[37mGET /index HTTP/1.1[0m" 200 -
+[2021-01-16 12:15:51,236] p INFO - 127.0.0.1 - - [16/Jan/2021 12:15:51] "[37mGET /admin_user HTTP/1.1[0m" 200 -
+[2021-01-16 12:16:20,597] p INFO -  * Detected change in '/home/weldino/Desktop/web_app2/Section_2/run.py', reloading
+[2021-01-16 12:16:27,994] p INFO - 127.0.0.1 - - [16/Jan/2021 12:16:27] "[32mGET /cancel_users14 HTTP/1.1[0m" 302 -
+[2021-01-16 12:16:28,042] p INFO - 127.0.0.1 - - [16/Jan/2021 12:16:28] "[37mGET /index HTTP/1.1[0m" 200 -
+[2021-01-16 12:16:28,066] p INFO - 127.0.0.1 - - [16/Jan/2021 12:16:28] "[36mGET /static/img/doctor.png HTTP/1.1[0m" 304 -
+[2021-01-16 12:16:30,076] p INFO - 127.0.0.1 - - [16/Jan/2021 12:16:30] "[32mGET /signout HTTP/1.1[0m" 302 -
+[2021-01-16 12:16:30,103] p INFO - 127.0.0.1 - - [16/Jan/2021 12:16:30] "[37mGET /signin HTTP/1.1[0m" 200 -
+[2021-01-16 12:17:53,318] p INFO -  * Detected change in '/home/weldino/Desktop/web_app2/Section_2/app/views.py', reloading
+[2021-01-16 12:19:02,574] p INFO -  * Detected change in '/home/weldino/Desktop/web_app2/Section_2/app/views.py', reloading
+[2021-01-16 12:19:05,590] p INFO - 127.0.0.1 - - [16/Jan/2021 12:19:05] "[37mGET /signin HTTP/1.1[0m" 200 -
+[2021-01-16 12:19:12,302] p INFO - user is not in the database
+[2021-01-16 12:19:12,302] p INFO - failed to log in
+[2021-01-16 12:19:12,303] p INFO - 127.0.0.1 - - [16/Jan/2021 12:19:12] "[32mPOST /signin HTTP/1.1[0m" 302 -
+[2021-01-16 12:19:12,307] p INFO - 127.0.0.1 - - [16/Jan/2021 12:19:12] "[37mGET /signin HTTP/1.1[0m" 200 -

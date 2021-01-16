@@ -34,8 +34,12 @@ def signup():
             Usertype='Author'
             last_time_seen=datetime.utcnow()
             if User.query.filter_by(username=username).first() != None:
+                app.logger.info('username is not unique')
+                app.logger.info('failed to register')
                 flash("That username is already taken...please choose another.", "danger")
             elif User.query.filter_by(email=email).first() != None:
+                app.logger.info('email is already taken')
+                app.logger.info('failed to register')
                 flash("That email is already taken...please choose another.", "danger")
             else:
                 user=User(username=username, email=email, password=password, joined=joined, 
@@ -59,6 +63,8 @@ def signin():
             email=loginform.email.data
             legit_user=User.query.filter_by(email=email, password=password).first()
             if legit_user is None: 
+                app.logger.info('user is not in the database')
+                app.logger.info('failed to log in')
                 flash('Sign in failed , check your username and password.', 'danger')
                 return redirect(url_for('signin'))
             else:
@@ -83,7 +89,7 @@ def cancel_users(user_id):
     db.session.delete(user)
     db.session.commit()
     flash(f'{user.username}, has been successfully deleted','success')
-    return redirect(url_for('admin'))
+    return redirect(url_for('index'))
 
 @app.route("/upload", methods=['GET', 'POST'])
 @login_required
