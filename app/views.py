@@ -100,11 +100,6 @@ def upload():
     return render_template('upload.html', title='upload_your_picture')
 
 
-@app.route("/account")
-@login_required
-def user_account():
-    return render_template('account.html', title='User_Account')
-
 @app.route("/post_content",methods=['GET', 'POST'])
 @login_required
 def post_content():

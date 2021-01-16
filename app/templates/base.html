@@ -46,9 +46,6 @@
             <ul class="navbar-nav right-links">
                 {% if current_user.is_authenticated %}
                 
-                <li class="nav-item ">
-                    <a class="nav-link " href="{{ url_for('user_account') }}">Account</a>
-                </li>
                
                 <li class="nav-item ">
                     <a class="nav-link " href="{{ url_for('upload') }}">Upload Your Profile</a>
